@@ -1,29 +1,14 @@
 using System;
 using System.Collections.Generic;
 
-namespace LeetSpeak.Models
+namespace LeetSpeakApp.Models
 {
-  public class LeetSpeakGenerator
+  public class LeetSpeak
   {
-
-    public char[] inputSentence = "This is LeetSpeak!".ToCharArray();
-    public List<char> inputList = new List<char>{};
-    public string returnSentence = "";
-
-    public string Eto3(char[] sentence)
+    public static string LeetTranslate(string inputSentence)
     {
-      foreach(char letter in sentence)
-      {
-        if(letter.ToString() == "e" || letter.ToString() == "E")
-        {
-          string newLetter = "3";
-          return newLetter;
-        }
-        else
-        {
-          return letter;
-        }
-      }
+      string translatedSentence = inputSentence.Replace("e", "3").Replace("E", "3").Replace("A", "4").Replace("a", "4").Replace("t", "7").Replace("T", "7").Replace("s", "z").Replace("o", "0").Replace("O", "0");
+      return translatedSentence;
     }
   }
 }

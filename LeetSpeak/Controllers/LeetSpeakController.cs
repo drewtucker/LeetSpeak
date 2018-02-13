@@ -1,11 +1,11 @@
 
 using Microsoft.AspNetCore.Mvc;
-using LeetSpeak.Models;
-namespace LeetSpeak.Controllers
+using LeetSpeakApp.Models;
+namespace LeetSpeakApp.Controllers
 {
     public class HomeController : Controller
     {
-      
+
 
     }
 }
