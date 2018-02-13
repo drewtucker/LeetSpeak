@@ -1,0 +1,2 @@
+/Users/Guest/Desktop/LeetSpeak.Solution/LeetSpeak/bin/Debug/netcoreapp1.1/LeetSpeak.deps.json
+/Users/Guest/Desktop/LeetSpeak.Solution/LeetSpeak/obj/Debug/netcoreapp1.1/LeetSpeak.AssemblyInfo.cs
